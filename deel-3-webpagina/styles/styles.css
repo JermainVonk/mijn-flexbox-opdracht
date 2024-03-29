@@ -1,1 +1,65 @@
 /*Schrijf hier jouw css*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #F2F3D9;
+    font-family: "Comic Sans MS";
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #030027;
+}
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+li, a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 16px;
+}
+.company-brand-name {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+.container  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    text-align: center;
+}
+.article-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px;
+}
+.info-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 4px;
+    font-size: 10px;
+    padding: 20px;
+    margin: 20px;
+    height: 350px;
+    background-color: #C16E70;
+    flex-basis: 280px;
+    flex-shrink: 1;
+    flex-grow: 0;
+}
+p {
+    text-align: center;
+}
